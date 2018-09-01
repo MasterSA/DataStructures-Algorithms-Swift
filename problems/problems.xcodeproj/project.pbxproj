@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EC5F8F00213B0EF6007BC5D9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F8EFF213B0EF6007BC5D9 /* main.swift */; };
-		EC5F8F07213B0F61007BC5D9 /* DecimalToBinary.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F8F06213B0F61007BC5D9 /* DecimalToBinary.swift */; };
+		EC5F8F07213B0F61007BC5D9 /* NumberConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F8F06213B0F61007BC5D9 /* NumberConversion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +26,7 @@
 /* Begin PBXFileReference section */
 		EC5F8EFC213B0EF6007BC5D9 /* problems */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = problems; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC5F8EFF213B0EF6007BC5D9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		EC5F8F06213B0F61007BC5D9 /* DecimalToBinary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalToBinary.swift; sourceTree = "<group>"; };
+		EC5F8F06213B0F61007BC5D9 /* NumberConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberConversion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				EC5F8EFF213B0EF6007BC5D9 /* main.swift */,
-				EC5F8F06213B0F61007BC5D9 /* DecimalToBinary.swift */,
+				EC5F8F06213B0F61007BC5D9 /* NumberConversion.swift */,
 			);
 			path = problems;
 			sourceTree = "<group>";
@@ -123,7 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC5F8F00213B0EF6007BC5D9 /* main.swift in Sources */,
-				EC5F8F07213B0F61007BC5D9 /* DecimalToBinary.swift in Sources */,
+				EC5F8F07213B0F61007BC5D9 /* NumberConversion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

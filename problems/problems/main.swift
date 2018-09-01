@@ -8,6 +8,5 @@
 
 import Foundation
 
-print("Hello, World!")
-print(getBinaryDigitis())
+print(decimalToBinary( 4 ))
 
