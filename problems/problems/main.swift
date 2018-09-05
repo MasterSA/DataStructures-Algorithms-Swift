@@ -10,5 +10,6 @@ import Foundation
 
 print(decimalToBinary( 90 ))
 print(power(2, toThePower: 63))
-print(distinctArrayOfSumZero(ofSize: 100))
+print(distinctArrayOfSumZero(ofSize: 10))
+print(binaryGap(4))
 
