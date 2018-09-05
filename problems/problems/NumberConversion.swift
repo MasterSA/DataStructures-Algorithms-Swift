@@ -9,15 +9,40 @@
 import Foundation
 
 
-func decimalToBinary(_ decimal: Int)-> [Int] {
-    var binaryDigits = [Int]()
+func decimalToBinary(_ decimal: Int)-> String {
+    var binaryDigits = [Character]()
     var n = decimal
     
     while n > 0 {
-        binaryDigits.append(n % 2)
+        binaryDigits.append(Character(String(n % 2)))
         n /= 2
     }
     
-    return binaryDigits.reversed()
+    return String(binaryDigits.reversed())
     
 }
+
+func power(_ number: Decimal, toThePower power : Int ) -> Decimal {
+    guard power > 0 else {
+        return 1
+    }
+    
+    var total = number
+    
+    for _ in 1..<power {
+        total *= number
+        
+    }
+    
+    return total
+    
+}
+
+//func binaryToDecimal(_ binary: String) -> Int {
+//    
+//    let binaryChars = binary[(binary.startIndex)..<(binary.endIndex)].reversed()
+//    var total = [Int]()
+//    
+//    
+//    
+//}

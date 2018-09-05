@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC5E2EB0213F2AD6003EF315 /* GenerateArrayWithDistinctElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5E2EAF213F2AD6003EF315 /* GenerateArrayWithDistinctElements.swift */; };
+		EC5E2EB3213F6482003EF315 /* BinaryGap.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5E2EB2213F6482003EF315 /* BinaryGap.swift */; };
 		EC5F8F00213B0EF6007BC5D9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F8EFF213B0EF6007BC5D9 /* main.swift */; };
 		EC5F8F07213B0F61007BC5D9 /* NumberConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5F8F06213B0F61007BC5D9 /* NumberConversion.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EC5E2EAF213F2AD6003EF315 /* GenerateArrayWithDistinctElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateArrayWithDistinctElements.swift; sourceTree = "<group>"; };
+		EC5E2EB2213F6482003EF315 /* BinaryGap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryGap.swift; sourceTree = "<group>"; };
 		EC5F8EFC213B0EF6007BC5D9 /* problems */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = problems; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC5F8EFF213B0EF6007BC5D9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		EC5F8F06213B0F61007BC5D9 /* NumberConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberConversion.swift; sourceTree = "<group>"; };
@@ -40,9 +44,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC5E2EB1213F644F003EF315 /* CodilityProblems */ = {
+			isa = PBXGroup;
+			children = (
+				EC5E2EB2213F6482003EF315 /* BinaryGap.swift */,
+			);
+			path = CodilityProblems;
+			sourceTree = "<group>";
+		};
 		EC5F8EF3213B0EF6007BC5D9 = {
 			isa = PBXGroup;
 			children = (
+				EC5E2EB1213F644F003EF315 /* CodilityProblems */,
 				EC5F8EFE213B0EF6007BC5D9 /* problems */,
 				EC5F8EFD213B0EF6007BC5D9 /* Products */,
 			);
@@ -61,6 +74,7 @@
 			children = (
 				EC5F8EFF213B0EF6007BC5D9 /* main.swift */,
 				EC5F8F06213B0F61007BC5D9 /* NumberConversion.swift */,
+				EC5E2EAF213F2AD6003EF315 /* GenerateArrayWithDistinctElements.swift */,
 			);
 			path = problems;
 			sourceTree = "<group>";
@@ -122,8 +136,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC5E2EB0213F2AD6003EF315 /* GenerateArrayWithDistinctElements.swift in Sources */,
 				EC5F8F00213B0EF6007BC5D9 /* main.swift in Sources */,
 				EC5F8F07213B0F61007BC5D9 /* NumberConversion.swift in Sources */,
+				EC5E2EB3213F6482003EF315 /* BinaryGap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,5 +8,7 @@
 
 import Foundation
 
-print(decimalToBinary( 4 ))
+print(decimalToBinary( 90 ))
+print(power(2, toThePower: 63))
+print(distinctArrayOfSumZero(ofSize: 100))
 
