@@ -70,3 +70,39 @@ public func solution(_ X : Int, _ A : inout [Int]) -> Int {
     return time
     
 }
+
+
+
+// Decimal to Hexa decimal number conversion
+
+func decimalToHexaDecimal(_ decimal: Int) -> String {
+    var hex = [Character]()
+    var dec = decimal
+
+    while dec > 0 {
+        let digit = dec % 16
+        let cDigit = Character(String(digit))
+        switch digit {
+        case (0...9):
+            hex.append(cDigit)
+        case 10:
+            hex.append("A")
+        case 11:
+            hex.append("B")
+        case 12:
+            hex.append("C")
+        case 13:
+            hex.append("D")
+        case 14:
+            hex.append("E")
+        default :
+            hex.append("F")
+
+        }
+        dec /= 16
+
+    }
+
+    return String(hex.reversed())
+
+}
