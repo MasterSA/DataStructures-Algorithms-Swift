@@ -106,3 +106,38 @@ func decimalToHexaDecimal(_ decimal: Int) -> String {
     return String(hex.reversed())
 
 }
+
+// is a properly nested string method
+
+import Foundation
+import Glibc
+
+// you can write to stdout for debugging purposes, e.g.
+// print("this is a debug message")
+
+public func solution(_ S : inout String) -> Int {
+    // write your code in Swift 3.0 (L
+    
+    var parenths = [Bool]()
+    
+    for c in S.characters {
+        if String(c) == ")" {
+            if parenths.isEmpty {
+                return 0
+                
+            } else {
+                parenths.removeLast()
+                
+            }
+            
+        } else {
+            parenths.append(true)
+            
+        }
+        
+    }
+    
+    
+    return parenths.isEmpty ? 1 : 0
+    
+}
